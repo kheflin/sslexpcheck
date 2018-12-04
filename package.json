@@ -1,0 +1,28 @@
+{
+  "name": "sslexpcheck",
+  "version": "1.0.0",
+  "description": "simple node service to check ssl certificate expiration dates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kheflin/sslexpcheck.git"
+  },
+  "keywords": [
+    "node",
+    "ssl",
+    "validation"
+  ],
+  "author": "Kevin Heflin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kheflin/sslexpcheck/issues"
+  },
+  "homepage": "https://github.com/kheflin/sslexpcheck#readme",
+  "dependencies": {
+    "check-ssl-expiration": "^0.1.0",
+    "line-by-line": "^0.1.6"
+  }
+}
